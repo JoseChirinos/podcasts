@@ -1,7 +1,7 @@
 # App de Podcast
 > App de Podcasts integrada con la API de AudioBoom para aprender nextjs
 
-![Preview de la App](https://raw.githubusercontent.com/JoseChirinos/podcasts/master/readme-static/project-final.png)
+![Preview de la App](https://raw.githubusercontent.com/JoseChirinos/podcasts/master/readme-static/project-final.PNG)
 
 ## Cómo funciona?
 
