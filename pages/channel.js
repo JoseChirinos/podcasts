@@ -141,14 +141,6 @@ export default class extends React.Component{
             z-index: 99999;
           }
       `}</style>
-
-      <style jsx global>{`
-        body {
-          margin: 0;
-          font-family: system-ui;
-          background: white;
-        }
-      `}</style>
       </Layout>
     )
   }

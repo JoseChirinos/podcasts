@@ -7,6 +7,10 @@ export default class ChannelGrid extends React.Component{
   render(){
     
     const { channels } = this.props
+    const params = {
+      slug: slug(channel.title),
+      id: channel.id
+    }
 
     return(
       <div className="channels">
@@ -14,10 +18,7 @@ export default class ChannelGrid extends React.Component{
           channels.map( (channel)=>(
             <Link 
               route="channel"
-              params={{
-                slug: slug(channel.title),
-                id: channel.id
-              }}
+              params={params}
               prefetch 
               key={channel.id}>
 
